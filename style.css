@@ -1,0 +1,35 @@
+
+
+:root {
+  --radius: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #272727;
+  color: white;
+  font-family: "Odibee Sans", sans-serif;
+  font-size: 2rem;
+}
+.square {
+  width: 45vh;
+  height: 35vh;
+  background-color: #18e411;
+  margin: 1rem;
+  border-radius: var(--radius);
+}
+
+.form-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  padding: 0.25rem;
+}
+label {
+  width: 14rem;
+  text-align: right;
+}
